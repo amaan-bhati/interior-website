@@ -54,3 +54,15 @@ section#newsletter {
     grid-template-columns: 1fr;
   }
 }
+
+
+.center{
+    max-width:700px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.header-content{
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+}
