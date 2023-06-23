@@ -66,3 +66,27 @@ section#newsletter {
     width: 100%;
     justify-content:space-between;
 }
+
+
+header{
+  position:absolute;
+  width:100%;
+}
+header a{
+  padding: 20px 5px;
+  display:inline-block;
+}
+header nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#333;
+  font-weight:300;
+}
+header nav a.active{
+  background-color: #F8BE58;
+  color:#fff;
+}
+header a.logo, header a.phone{
+  text-decoration: none;
+  color:black;
+}
