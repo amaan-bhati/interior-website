@@ -90,3 +90,21 @@ header a.logo, header a.phone{
   text-decoration: none;
   color:black;
 }
+
+@media screen and (max-width: 700px) {
+  header div.header-content{
+      flex-wrap: wrap;
+  }
+  header nav{
+      order:5;
+      text-align: center;
+      width: 100%;
+      display:flex;
+  }
+  header a{
+      padding: 5px;
+  }
+  header nav a{
+      flex-grow: 1;
+  }
+}
