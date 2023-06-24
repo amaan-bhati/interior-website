@@ -108,3 +108,24 @@ header a.logo, header a.phone{
       flex-grow: 1;
   }
 }
+
+
+section#intro{
+  background-image: url('intro.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+section#intro h1{
+  text-transform:uppercase;
+  font-size:3rem;
+  margin-bottom: 14px;
+}
+section#intro h2{
+  font-size: .8rem;
+  text-transform:uppercase;
+  font-weight:normal;
+  margin-bottom: 14px;
+  text-align: left;
+}
