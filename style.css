@@ -129,3 +129,12 @@ section#intro h2{
   margin-bottom: 14px;
   text-align: left;
 }
+
+@media screen and (max-width: 700px) {
+  section#intro h1{
+      font-size:2rem;
+  }
+  section#intro h2{
+      font-size: .7rem;
+  }
+}
