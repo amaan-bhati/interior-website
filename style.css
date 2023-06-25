@@ -188,10 +188,29 @@ div.news-entry p{
 }
 
 div.news-entry div.date{
-  background-color:transparent;
-  color:#F8BE58;
-  text-align: left;
-  padding:0;
-  font-size: .8rem;
-  font-weight: bold;
+    background-color:transparent;
+    color:#F8BE58;
+    text-align: left;
+    padding:0;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+
+section#newsletter{
+  padding-bottom: 0;
+}
+section#newsletter img{
+  display: block;
+}
+section#newsletter form{
+  display: flex;
+  max-width: 400px;
+  padding: 0 20px;
+  margin: 0 auto 50px;
+}
+section#newsletter form input{
+  border:0;
+  padding: 5px 15px;
+  width: 100%;
 }
