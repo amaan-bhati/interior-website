@@ -55,93 +55,91 @@ section#newsletter {
   }
 }
 
-
-.center{
-    max-width:700px;
-    margin:0 auto;
-    padding: 0 20px;
+.center {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.header-content{
-    display:flex;
-    width: 100%;
-    justify-content:space-between;
+.header-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-
-header{
-  position:absolute;
-  width:100%;
+header {
+  position: absolute;
+  width: 100%;
 }
-header a{
+header a {
   padding: 20px 5px;
-  display:inline-block;
+  display: inline-block;
 }
-header nav a{
+header nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color:#333;
-  font-weight:300;
+  color: #333;
+  font-weight: 300;
 }
-header nav a.active{
-  background-color: #F8BE58;
-  color:#fff;
+header nav a.active {
+  background-color: #f8be58;
+  color: #fff;
 }
-header a.logo, header a.phone{
+header a.logo,
+header a.phone {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 @media screen and (max-width: 700px) {
-  header div.header-content{
-      flex-wrap: wrap;
+  header div.header-content {
+    flex-wrap: wrap;
   }
-  header nav{
-      order:5;
-      text-align: center;
-      width: 100%;
-      display:flex;
+  header nav {
+    order: 5;
+    text-align: center;
+    width: 100%;
+    display: flex;
   }
-  header a{
-      padding: 5px;
+  header a {
+    padding: 5px;
   }
-  header nav a{
-      flex-grow: 1;
+  header nav a {
+    flex-grow: 1;
   }
 }
 
-
-section#intro{
-  background-image: url('intro.jpg');
+section#intro {
+  background-image: url("intro.jpg");
   background-position: center center;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 100px;
 }
-section#intro h1{
-  text-transform:uppercase;
-  font-size:3rem;
+section#intro h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
   margin-bottom: 14px;
 }
-section#intro h2{
-  font-size: .8rem;
-  text-transform:uppercase;
-  font-weight:normal;
+section#intro h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: normal;
   margin-bottom: 14px;
   text-align: left;
 }
 
 @media screen and (max-width: 700px) {
-  section#intro h1{
-      font-size:2rem;
+  section#intro h1 {
+    font-size: 2rem;
   }
-  section#intro h2{
-      font-size: .7rem;
+  section#intro h2 {
+    font-size: 0.7rem;
   }
 }
-.button{
-  background-color:#F8BE58;
-  border:0;
-  color:#fff;
+.button {
+  background-color: #f8be58;
+  border: 0;
+  color: #fff;
   padding: 8px 20px;
   min-width: 150px;
   text-align: center;
@@ -150,67 +148,95 @@ section#intro h2{
   text-transform: uppercase;
 }
 
-section#about h4{
+section#about h4 {
   font-size: 1.4rem;
   font-weight: normal;
-  color:#333;
+  color: #333;
   margin-bottom: 10px;
 }
-section#about p{
-  font-size: .7rem;
-  color:#666;
+section#about p {
+  font-size: 0.7rem;
+  color: #666;
   line-height: 1rem;
   margin-bottom: 20px;
 }
 
-
-section#news img{
+section#news img {
   display: block;
 }
-div.date{
-  color:#fff;
-  background-color:#F8BE58;
+div.date {
+  color: #fff;
+  background-color: #f8be58;
   padding: 7px;
   text-align: center;
 }
-div.news-entry{
+div.news-entry {
   margin: 20px 0;
 }
-div.news-entry a{
-  color:#000;
+div.news-entry a {
+  color: #000;
 }
-div.news-entry p{
-  font-size: .8rem;
-  color:#777;
+div.news-entry p {
+  font-size: 0.8rem;
+  color: #777;
   line-height: 1.2rem;
-  margin-bottom:10px;
-  margin-top:10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-div.news-entry div.date{
-    background-color:transparent;
-    color:#F8BE58;
-    text-align: left;
-    padding:0;
-    font-size: .8rem;
-    font-weight: bold;
+div.news-entry div.date {
+  background-color: transparent;
+  color: #f8be58;
+  text-align: left;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-
-section#newsletter{
+section#newsletter {
   padding-bottom: 0;
 }
-section#newsletter img{
+section#newsletter img {
   display: block;
 }
-section#newsletter form{
+section#newsletter form {
   display: flex;
   max-width: 400px;
   padding: 0 20px;
   margin: 0 auto 50px;
 }
-section#newsletter form input{
-  border:0;
+section#newsletter form input {
+  border: 0;
   padding: 5px 15px;
   width: 100%;
+}
+
+footer {
+  background-color: #2a2a2a;
+  color: #ddd;
+}
+footer h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #aaa;
+}
+footer a {
+  color: #ccc;
+  display: block;
+  margin-bottom: 4px;
+}
+footer p a {
+  display: inline;
+}
+footer div.columns {
+  display: grid;
+  padding: 20px 0;
+  gap: 20px;
+  grid-template-columns: 1fr 0.4fr 0.5fr;
 }
