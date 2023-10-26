@@ -90,6 +90,22 @@ header a.phone {
   color: black;
 }
 
+.center {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
 @media screen and (max-width: 700px) {
   header div.header-content {
     flex-wrap: wrap;
