@@ -211,6 +211,13 @@ section#newsletter form input {
   width: 100%;
 }
 
+
+@media screen and (max-width: 700px) {
+  footer div.columns{
+      grid-template-columns: 1fr;
+  }
+}
+
 footer {
   background-color: #2a2a2a;
   color: #ddd;
@@ -239,6 +246,25 @@ footer div.columns {
   padding: 20px 0;
   gap: 20px;
   grid-template-columns: 1fr 0.4fr 0.5fr;
+}
+
+
+section#newsletter {
+  padding-bottom: 0;
+}
+section#newsletter img {
+  display: block;
+}
+section#newsletter form {
+  display: flex;
+  max-width: 400px;
+  padding: 0 20px;
+  margin: 0 auto 50px;
+}
+section#newsletter form input {
+  border: 0;
+  padding: 5px 15px;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
